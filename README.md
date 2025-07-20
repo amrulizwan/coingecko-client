@@ -14,7 +14,7 @@ Professional JavaScript SDK for seamless integration with CoinGecko API. Access 
 ## Installation
 
 ```bash
-npm install coingecko-client
+npm install @amrulizwan/coingecko-client
 ```
 
 ## Quick Start
@@ -47,8 +47,8 @@ const client = new CoinGeckoClient({
 
 ### Options
 
-| Option      | Type   | Default | Description                                  |
-| ----------- | ------ | ------- | -------------------------------------------- |
+| Option    | Type   | Default | Description                                  |
+| --------- | ------ | ------- | -------------------------------------------- |
 | `timeout` | number | 10000   | Request timeout in milliseconds              |
 | `apiKey`  | string | null    | CoinGecko Pro API key for higher rate limits |
 
