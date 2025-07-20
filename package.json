@@ -1,0 +1,42 @@
+{
+  "name": "@amrulizwan/coingecko-client",
+  "version": "1.0.0",
+  "description": "Professional JavaScript SDK for CoinGecko API with comprehensive cryptocurrency data access",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "example:basic": "node examples/basic-usage.js",
+    "example:advanced": "node examples/advanced-usage.js"
+  },
+  "keywords": [
+    "coingecko",
+    "cryptocurrency",
+    "api",
+    "sdk",
+    "bitcoin",
+    "ethereum",
+    "crypto",
+    "client"
+  ],
+  "author": "Amrul Izwan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amrulizwan/coingecko-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amrulizwan/coingecko-client/issues"
+  },
+  "homepage": "https://github.com/amrulizwan/coingecko-client#readme"
+}
